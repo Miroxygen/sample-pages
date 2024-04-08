@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Navigation Feedback</title>
+    <link rel="stylesheet" href="css/navigate.css">
+    <script src="js/navigate.js"></script>
+</head>
+<body>
+    <nav>
+        <button onclick="navigateTo('start')">Start</button>
+        <button onclick="navigateTo('om oss')">Om oss</button>
+        <button onclick="navigateTo('kontakt')">Kontakt</button>
+    </nav>
+    <div id="feedback"></div>
+    <div id="pages">
+        <div id="start" class="page">Välkommen till startsidan!</div>
+        <div id="om oss" class="page" style="display:none;">Lär dig mer om oss</div>
+        <div id="kontakt" class="page" style="display:none;">Kontakta oss</div>
+    </div>
+</body>
+</html>
