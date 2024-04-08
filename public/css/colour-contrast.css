@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Ljusgrå bakgrund */
+}
+
+header {
+  background-color: #c7c6c1; /* Ljus grå-beige, nästan samma som body bakgrund */
+  color: rgb(155, 154, 151); /* Mycket ljus grå, dålig kontrast */
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #e0e0e0; /* Ljusgrå text, dålig kontrast mot header */
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  background-color: #dcd7cc; /* Ljus beige, nästan samma som header */
+  color: #d6d6d6; /* Mycket ljus beige, dålig kontrast mot sektionens bakgrund */
+}
+
+aside {
+  padding: 20px;
+  background-color: #829294; /* Mörk cyan, men kommer att använda ljus text */
+  color: #8e9596; /* Ljus cyan, dålig kontrast mot bakgrunden */
+}
+
+footer {
+  background-color: #a7a9ac; /* Medium grå */
+  color: #9ea3ac; /* Ljus grå, dålig kontrast mot footer bakgrund */
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 500px;
+}

@@ -26,6 +26,22 @@ router.get('/navigate', (req, res) => {
 router.get('/profile-edit', (req, res) => {
   res.render('profile-edit')
 })
+router.get('/colour-contrast', (req, res) => {
+  res.render('colour-contrast')
+})
+router.get('/focus-order', (req, res) => {
+  res.render('focus-order')
+})
+router.get('/content-size', (req, res) => {
+  res.render('content-size')
+})
+router.get('/affordance', (req, res) => {
+  res.render('affordance')
+})
+
+router.get('/', (req, res) => {
+  res.render('start')
+})
 
 app.listen('8080', () => {
   console.log("Server running on http://localhost:8080")

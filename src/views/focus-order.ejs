@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Webbsida med Tabbnavigeringsproblem</title>
+    <link rel="stylesheet" href="css/tabs.css">
+</head>
+<body>
+    <header>
+        <h1>Välkommen till Min Sajt</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Hem</a></li>
+                <li><a href="#">Om Oss</a></li>
+                <li><a href="#">Tjänster</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Om Oss</h2>
+            <p>Denna sektion innehåller information om företaget.</p>
+            <a href="#" tabindex="4">Läs Mer</a>
+        </section>
+        <section>
+            <h2>Våra Tjänster</h2>
+            <p>Information om de tjänster vi erbjuder.</p>
+            <a href="#" id="hidden-link" tabindex="3">Osynlig Tjänst</a>
+            <button type="button">Få en Offert</button>
+        </section>
+        <aside>
+            <h3>Nyheter</h3>
+            <p>Senaste nyheterna om våra produkter och tjänster.</p>
+            <a href="#" tabindex="5">Mer Nyheter</a>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2024 Min Webbplats. Alla rättigheter förbehållna.</p>
+        <a href="#" tabindex="1">Integritetspolicy</a>
+    </footer>
+</body>
+</html>
