@@ -38,6 +38,12 @@ router.get('/content-size', (req, res) => {
 router.get('/affordance', (req, res) => {
   res.render('affordance')
 })
+router.get('/overload', (req, res) => {
+  res.render('kognitiv')
+})
+router.get('/help-text', (req, res) => {
+  res.render('hjälp-text')
+})
 
 router.get('/', (req, res) => {
   res.render('start')
